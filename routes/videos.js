@@ -4,8 +4,8 @@ const fs = require("fs");
 const crypto = require("crypto");
 
 function readVideosFile() {
-  const VideoList = fs.readFileSync(`./data/videos.json`);
-  const parsedData = JSON.parse(VideoList);
+  const videoList = fs.readFileSync(`./data/videos.json`);
+  const parsedData = JSON.parse(videoList);
   return parsedData;
 }
 
@@ -33,6 +33,21 @@ router.post("/", (req, res) => {
     id: crypto.randomUUID(),
     title: req.body.title,
     description: req.body.description,
+    channel: "Ivan Salgado",
+    image: "http://localhost:8080/public-images/Upload-video-preview.jpg",
+    views: "9,999,999",
+    likes: "999,999",
+    duration: "4:20",
+    timestamp: 1632344461000,
+    comments: [
+      {
+        id: "2d818087-c1f4-4ec2-bcdc-b545fd6ec258",
+        name: "Ivan Salgado",
+        comment: "Ivan filling up the comments",
+        likes: 999,
+        timestamp: 1632512763000,
+      },
+    ],
   };
 
   const videos = readVideosFile();
