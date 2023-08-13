@@ -22,9 +22,9 @@ router.get("/", (req, res) => {
   res.send(result);
 });
 
-router.get("/:videoId", (req, res) => {
+router.get("/:id", (req, res) => {
   const videos = readVideosFile();
-  const specificVideo = videos.find((video) => video.id === req.params.videoId);
+  const specificVideo = videos.find((video) => video.id === req.params.id);
   res.json(specificVideo);
 });
 
