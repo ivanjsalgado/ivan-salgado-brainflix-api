@@ -34,7 +34,8 @@ router.post("/", (req, res) => {
     title: req.body.title,
     description: req.body.description,
     channel: "Ivan Salgado",
-    image: "http://localhost:8080/public-images/Upload-video-preview.jpg",
+    image:
+      "https://ivanjsalgado-brain-flix-e8411a027468.herokuapp.com/public-images/Upload-video-preview.jpg",
     views: "9,999,999",
     likes: "999,999",
     duration: "4:20",
