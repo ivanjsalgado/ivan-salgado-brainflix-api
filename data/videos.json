@@ -299,45 +299,5 @@
         "timestamp": 1632496261000
       }
     ]
-  },
-  {
-    "id": "3ac98c2b-7b9e-4908-bfa2-b9fe7c98c861",
-    "title": "Test",
-    "description": "Test Description",
-    "channel": "Ivan Salgado",
-    "image": "http://localhost:8080/public-images/Upload-video-preview.jpg",
-    "views": "9,999,999",
-    "likes": "999,999",
-    "duration": "4:20",
-    "timestamp": 1632344461000,
-    "comments": [
-      {
-        "id": "2d818087-c1f4-4ec2-bcdc-b545fd6ec258",
-        "name": "Ivan Salgado",
-        "comment": "Ivan filling up the comments",
-        "likes": 999,
-        "timestamp": 1632512763000
-      }
-    ]
-  },
-  {
-    "id": "80bb3be5-1dda-425b-94c2-72ee23cd4004",
-    "title": "Jessica",
-    "description": "Cant read",
-    "channel": "Ivan Salgado",
-    "image": "http://localhost:8080/public-images/Upload-video-preview.jpg",
-    "views": "9,999,999",
-    "likes": "999,999",
-    "duration": "4:20",
-    "timestamp": 1632344461000,
-    "comments": [
-      {
-        "id": "2d818087-c1f4-4ec2-bcdc-b545fd6ec258",
-        "name": "Ivan Salgado",
-        "comment": "Ivan filling up the comments",
-        "likes": 999,
-        "timestamp": 1632512763000
-      }
-    ]
   }
 ]
